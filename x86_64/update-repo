@@ -1,9 +1,9 @@
 #!/bin/bash
 
-rm arctic_repo*
+rm arctic*
 
 echo "-----------------repo-add----------------"
-repo-add -n -R arctic_repo.db.tar.gz *.pkg.tar.zst
+repo-add -n -R arctic.db.tar.gz *.pkg.tar.zst
 
 echo "===================================="
 echo "Repo Updated!!"
