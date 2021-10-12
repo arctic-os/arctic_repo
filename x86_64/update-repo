@@ -1,6 +1,6 @@
 #!/bin/bash
 
-rm arctic*
+rm arctic.*
 
 echo "-----------------repo-add----------------"
 repo-add -n -R arctic.db.tar.gz *.pkg.tar.zst
